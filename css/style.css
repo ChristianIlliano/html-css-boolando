@@ -112,12 +112,15 @@ img {
     padding: 5px 10px;
   }
 
-  .img-font img {
-    background-image: url(../img/1.webp);
+  .top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
   }
 
-  .img-font img:hover {
-    display: inline-block;
-   background-image: url(../img/1b.webp);
+  .top-img:hover {
+    opacity: 1;
   }
+
 /* FOOTER */
